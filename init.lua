@@ -20,3 +20,7 @@ minetest.register_craft({
 	recipe = {"charcoal:charcoal_lump","default:stick"},
 	output = "default:torch",
 })
+minetest.register_craft({
+	type = "shapeless",
+	recipe = {"charcoal:charcoal_lump"}
+	output = "default:coal_lump",
