@@ -18,7 +18,7 @@ minetest.register_craft({
 minetest.register_craft({
 	type = "shapeless",
 	recipe = {"charcoal:charcoal_lump","default:stick"},
-	output = "default:torch",
+	output = "default:torch 4",
 })
 minetest.register_craft({
 	type = "shapeless",
